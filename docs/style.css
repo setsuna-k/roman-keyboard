@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+  
+body {
+    font-family: 'Source Han Serif', 'Times New Roman', Times, serif;
+    font-size: 120%;
+}
+body h1 { line-height: 100% ;}
+body a { color: black; }
+.title { font-size: 150%; }
+.subtitle { font-size: 85%; }
+header { margin-top: 3rem; }
+footer { margin-top: 1rem; margin-bottom: 3rem; text-align: right; }
+footer a { color: black; }
+#main-footer { font-size: 80%; color: #444; text-align: center; margin-top: 2rem; }
+
+blockquote {
+    margin-left: 2rem;
+    border-left: 2px #666666 solid;
+    padding-left: 1rem;
+    color: #666666;
+
+}
+#main { margin: 4rem; }
+
+pre { width: 100%; overflow: auto; }
+.sidenote { color: darkgray; }
+.sidenote:hover { color: #3f3f3f; text-decoration: underline; }
+
+table { border: 1px black solid; }
+thead { border: 1px black solid; }
+tbody { border: 1px black solid; }
+th { border: 1px black solid; }
+.table-left-head { text-align: center ; border: 1px black solid; }
+td.yes { background-color: green; text-align: center; color: white;}
+td.kinda {background-color: lightgreen; text-align: center;}
